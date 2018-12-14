@@ -11,7 +11,7 @@
 using namespace std;
 using namespace std::chrono;
 
-const int  tam_map=500;
+const int  tam_map=100;
 
 
 high_resolution_clock::time_point tstart;
@@ -295,7 +295,7 @@ int main( int argc, char* argv[] ) {
      
     if( as.search( s, e, m ) ) {
 
-        /*
+        
         std::list<point> path;
         int c = as.path( path );
 
@@ -323,7 +323,7 @@ int main( int argc, char* argv[] ) {
         std::cout << "\nPath cost " << c << ": ";
         for( std::list<point>::iterator i = path.begin(); i != path.end(); i++ ) {
             std::cout<< "(" << ( *i ).x << ", " << ( *i ).y << ") ";
-        }*/
+        }
     
     }
 

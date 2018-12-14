@@ -13,7 +13,7 @@
 using namespace std;
 using namespace std::chrono;
 
-const int tam_map=250;
+const int tam_map=100;
 
 omp_lock_t lock;
 
@@ -423,7 +423,7 @@ int main( int argc, char* argv[] ) {
      
     if( as.search( s, e, m ) ) {
 
-        /*
+        
         std::list<point> path;
         int c = as.path( path );
 
@@ -452,7 +452,7 @@ int main( int argc, char* argv[] ) {
         for( std::list<point>::iterator i = path.begin(); i != path.end(); i++ ) {
             std::cout<< "(" << ( *i ).x << ", " << ( *i ).y << ") ";
         }
-        */
+        
     
     }
 

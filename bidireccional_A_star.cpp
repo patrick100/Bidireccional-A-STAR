@@ -11,7 +11,7 @@
 using namespace std;
 using namespace std::chrono;
 
-const int tam_map=250;
+const int tam_map=100;
 
 
 high_resolution_clock::time_point tstart;
