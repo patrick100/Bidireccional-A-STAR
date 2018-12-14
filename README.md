@@ -14,3 +14,10 @@ Se aprecia el numero de nodos expandidos
 Se aprecia el tiempo de ejecución
 ![alt text](imagenes/serial2.png)
 
+# Compilando y ejecutando el algoritmo bidireccional A* serial
+Se aprecia el tiempo y el numero de nodos expandidos
+![alt text](imagenes/biserial.png)
+
+# Compilando y ejecutando el SPA*(Paralelización simple A*)
+Se aprecia el tiempo y el numero de nodos expandidos
+![alt text](imagenes/SPA.png)
