@@ -1,4 +1,4 @@
-# Bidireccional-A-STAR-en-GPU
+# Bidireccional-A-STAR
 Proyecto de investigación presentado para seminario de tesis CS-UNSA , 
 este proyecto tiene como objetivo optimizar el algoritmo bidireccional A*
 en un entorno GPU, para lograr este objetivo se implemento el algoritmo A*
